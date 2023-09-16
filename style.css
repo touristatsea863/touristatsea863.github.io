@@ -10,7 +10,7 @@ div{
 }
 nav {
     margin: 10px 0;
-    background-color: #cd4c4c;
+    background-color: #e99d9d;
 }
 
 /* убираем отступы и поля, а также list-style для "ul", 
@@ -20,13 +20,14 @@ nav ul {
     margin:0;
     list-style: none;
     position: relative;
+    flex-direction:row-reverse;
     }
 
 /* применяем inline-block позиционирование к элементам навигации */
 nav ul li {
     margin: 0px -7px 0 0;
     display:inline-block;
-    background-color: #cd4c4c;
+    background-color: #e99d9d;
     }
 
 /* стилизуем ссылки */

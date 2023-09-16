@@ -5,3 +5,6 @@ P{
 ul{
     text-align: center;
 }
+div{
+    background-color: rgba(255, 255, 255, 0.8);   /*<------------  0.8 это прозрачность блока без текста*/
+}

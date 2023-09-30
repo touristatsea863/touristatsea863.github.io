@@ -12,6 +12,9 @@ nav {
     margin: 10px 0;
     background-color: #700000;
 }
+footer div{
+    background-color: rgba(195, 195, 195, 0.8);
+}
 
 /* убираем отступы и поля, а также list-style для "ul", 
  * и добавляем "position:relative" */
@@ -48,6 +51,7 @@ nav ul ul {
     display: none;
     position: absolute;
     top: 100%;
+    float: left;
 }
 
 /* отображаем выпадающий список при наведении */

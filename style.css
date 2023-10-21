@@ -75,3 +75,22 @@ div.fto {
     display: flex;
     justify-content: center;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+div span a{
+    font-size: 2em;
+}
+nav li a:visited {
+    color: white;
+}
+nav li ul li a:visited {
+    color: white;
+}
+nav li ul li ul li {
+    color: white;
+}

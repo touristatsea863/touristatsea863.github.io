@@ -62,15 +62,18 @@
                  </ul>
             
 </nav>
-<div>
-    <p>Арабские Эмираты</p>
-    <h1 class="gyt">ㅤㅤㅤㅤㅤㅤОбъединенные Арабские Эмираты (ОАЭ) – государство на Аравийском полуострове вдоль южного побережья Персидского залива, состоящее из семи эмиратов. Столица страны Абу-Даби, расположенная на прибрежном острове, славится Большой мечетью шейха Зайда, которая вмещает более 40 тысяч верующих и освещается хрустальными люстрами. В Дубае туристов привлекают самый высокий в мире небоскреб Бурдж-Халифа, огромные торговые центры и развлекательные заведения в самобытном стиле.</h1>
-</div>
-<div class="fto">
-    <h1></h1>
-    <h1></h1>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5xqgqfcs_1E?si=-zwk3M49CsoARevL&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+Цена поездки за 1го человека: 155 000 руб./чел.
+<h3>Цена от : <span id="price">155 000</span>руб</h3>
+<button onclick="calc()">Расчитать цену</button>
+Количество людей: <input type="text" name="" id="number">
+<script>
+    function calc() {
+    var n = parseInt(document.getElementById("number").value);
+    var price = 155000 * n;
+    document.getElementById("price").innerText = price;
+    console.log(price);
+}
+</script></div>
 <main>
 </main>
 

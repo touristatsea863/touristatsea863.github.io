@@ -33,6 +33,7 @@
     .gyt {
         padding-right: 260px;
         padding-left: 260px;
+        z-index: 2;
     }
     iframe {
         margin: auto;
@@ -80,13 +81,23 @@
     padding: 12px 10px 12px 10px;
     transition: 0.4s ease-in-out;
     }
+    .absolute{
+    position: fixed;
+    top: 0px;
+    width: 98.8%;
+    height: 100px;
+    padding: 0 10px;
+    border: 2px solid black ;
+    background-color: white;
+    z-index: -1;
+    }
 
 input[type=text]:focus {
   width: 30%;
 }
 </style>
 <body>
-<nav>
+<nav class="absolute">
     <li><a href="index.html">Домашняя</a></li>
             <li><a href="#">Вас интересует</a></li>
                   <ul class="fff">

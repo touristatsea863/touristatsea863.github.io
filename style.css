@@ -5,7 +5,10 @@ P{
 ul li h1{
     text-align: center;
 }
-div{
+div nav{
+    background-color: rgba(255, 255, 255, 0.8);   /*<------------  0.8 это прозрачность блока без текста*/
+}
+div p{
     background-color: rgba(255, 255, 255, 0.8);   /*<------------  0.8 это прозрачность блока без текста*/
 }
 nav {

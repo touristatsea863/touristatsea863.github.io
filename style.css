@@ -5,12 +5,6 @@ P{
 ul li h1{
     text-align: center;
 }
-div nav{
-    background-color: rgba(255, 255, 255, 0.8);   /*<------------  0.8 это прозрачность блока без текста*/
-}
-div p{
-    background-color: rgba(255, 255, 255, 0.8);   /*<------------  0.8 это прозрачность блока без текста*/
-}
 nav {
     margin: 10px 0;
     background-color: #700000;

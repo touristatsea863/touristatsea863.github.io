@@ -6,8 +6,14 @@
     <title>Авиарейсы</title>
     <link rel="stylesheet" href="style.css">
     <!-- <script src="//code.jivo.ru/widget/XDrmMSNlAT" async></script> -->
+    <link rel="stylesheet" href="TanaUncialSP.otf">
+
 </head>
 <style>
+    @font-face {
+    font-family: 'DischargePro';
+    src: url('./DischargePro.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    }   
     li {
     list-style-type: none;
    }
@@ -54,10 +60,13 @@
         border: rgb(76, 76, 76);
         background-color: rgb(209, 209, 209);
     }
+    .textDischargePro {
+       font-family: "DischargePro";
+    }
 </style>
 <body>    
     <div>
-        <p style="font-family: sans-serif;">Авиарейсы</p>
+        <span class="textDischargePro"><p>Авиарейсы</p></span>
     
     </div>
     <nav>
@@ -117,5 +126,10 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script defer src="https://lk.easynetshop.ru/frontend/v5/ens-db0bba63.js"></script>
 <link href="https://lk.easynetshop.ru/frontend/v5/ens-db0bba63.css" rel="stylesheet">
+<style> 
+	#enscart_image_wrapper { 
+		background: linear-gradient(#de5f20, #d66dcb ) fixed;
+	} 
+</style>
 </body>
 </html>
